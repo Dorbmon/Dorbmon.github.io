@@ -1,18 +1,39 @@
 .page {
     background-image: url(../image/back.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
+
 .box {
-    text-align:center;
+    text-align: center;
     border-radius: 30px;
     background: whitesmoke;
     padding-bottom: 10px;
     opacity: 90%;
     bottom: 10px;
 }
+
 .headbox {
     border-radius: 25px;
     padding: 20px;
     width: 100px;
+}
+
+.rbutton {
+    width: 200px;
+    padding: 8px;
+    background-color: #428bca;
+    border-color: #357ebd;
+    color: #fff;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    /* future proofing */
+    -khtml-border-radius: 10px;
+    /* for old Konqueror browsers */
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    font-weight: 900;
+    font-size: 125%
 }
